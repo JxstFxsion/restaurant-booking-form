@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    input, button {
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-family: 'Lucida Sans', sans-serif;
+    }
+
+    input.invalid {
+      background-color: yellow;
+      border: 2px solid red;
+    }
+
+    input.valid {
+      background-color: white;
+    }
+
+    #msg {
+      font-weight: bold;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div align="center">
+    <h1>Booking your place for your dinner!</h1>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" size="22">
+
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" size="22">
+  </div>
+
+  <br>
+
+  <div style="margin-left: 10%;">
+    <h2>Select a time</h2>
+    <input type="radio" name="time" value="05:00" checked> 5:00<br>
+    <input type="radio" name="time" value="06:00"> 6:00<br>
+    <input type="radio" name="time" value="07:00"> 7:00<br>
+    <input type="radio" name="time" value="08:00"> 8:00<br>
+
+    <h2>What would you like to have with us?</h2>
+    <input type="checkbox" name="meal" value="Starters"> Starters<br>
+    <input type="checkbox" name="meal" value="Main Course"> Main Course<br>
+    <input type="checkbox" name="meal" value="Desserts"> dessert<br>
+    <input type="checkbox" name="meal" value="Drinks"> Drinks<br>
+  </div>
+
+  <div align="center">
+    <button id="submitBtn" disabled>Submit</button>
+    <span id="msg">. . .</span>
+  </div>
+
+  <script src="booking.js"></script>
+</body>
+</html>
