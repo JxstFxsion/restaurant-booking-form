@@ -41,3 +41,10 @@ This project is a simple restaurant reservation form built using HTML, CSS, and 
 ## Author
 
 Created by Austn w. Davis for Test 2 and Acedemic Purposes.
+
+## Acknowledgments
+
+- Google was used to research regular expressions and JavaScript syntax examples.
+- ChatGPT was used to explain validation logic, assist in debugging code, and structure the form functionality.
+- Quizlet was used for reviewing related concepts in JavaScript validation and form inputs.
+
